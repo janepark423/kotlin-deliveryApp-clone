@@ -19,6 +19,6 @@
               android:id="@+id/gridview"
               android:numColumns="4"
               android:layout_height="wrap_content"
-              app:layout_constraintTop_toBottomOf="wrap_content"
+              app:layout_constraintTop_toBottomOf="@+id/viewpager"
     />
 </androidx.constraintlayout.widget.ConstraintLayout>
