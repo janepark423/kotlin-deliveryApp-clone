@@ -7,10 +7,18 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
     <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_width="match_parent"
             android:layout_height="220dp"/>
 
+    <GridView
+            android:layout_width="match_parent"
+              android:id="@+id/gridview"
+              android:numColumns="4"
+              android:layout_height="wrap_content"
+              app:layout_constraintTop_toBottomOf="wrap_content"
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
