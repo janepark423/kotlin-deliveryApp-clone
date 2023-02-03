@@ -7,20 +7,27 @@ import android.widget.BaseAdapter
 
 
 class GridviewAdapter(val context:Context, val img_list: Array<Int>, val text_list: Array<String>) :BaseAdapter(){
-    override fun getCount(): Int {
+    override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
         TODO("Not yet implemented")
     }
 
     override fun getItem(p0: Int): Any {
-        TODO("Not yet implemented")
+       return 0
     }
+
 
     override fun getItemId(p0: Int): Long {
-        TODO("Not yet implemented")
+        return 0
     }
 
-    override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
-        TODO("Not yet implemented")
+    override fun getCount(): Int {
+        return img_list.size
     }
+
+
+
+
+
+
 
 }
